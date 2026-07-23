@@ -9,7 +9,7 @@ import org.springframework.web.bind.annotation.RestController;
 
 import com.example.Pet_Service.adapters.inbound.dto.PetCreateDTO;
 import com.example.Pet_Service.adapters.inbound.dto.PetResponseDTO;
-import com.example.Pet_Service.application.usecase.CreatePetUseCase;
+import com.example.Pet_Service.application.port.in.CreatePetUseCase;
 
 import jakarta.validation.Valid;
 import lombok.RequiredArgsConstructor;
